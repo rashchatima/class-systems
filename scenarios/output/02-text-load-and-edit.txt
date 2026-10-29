@@ -1,0 +1,33 @@
+Choose a mode: text or chars [text]: text
+Document title: Scratch
+Mode: text — structured text: headings, paragraphs, links and images
+Type "help" to see the commands.
+> load notes
+Loaded "notes" from 2026-10-29 11:50.
+> print --whole --id
+[#1] # My Notes
+
+[#2] ## Shopping
+
+[#3] Milk, bread and cheese.
+
+[#4] [Recipes](https://example.com/recipes)
+> cd Shopping
+/Shopping
+> add leaf paragraph
+Paragraph text: Do not forget apples.
+Added paragraph #5 to /Shopping
+> rm #3
+Remove paragraph "Milk, bread and cheese."? (y/n): y
+Removed.
+> print
+## Shopping
+
+Do not forget apples.
+> save notes
+Save "notes" updated.
+> saves
+  2026-10-29 11:50  notes
+> load missing
+Error: There is no save "missing".
+> exit

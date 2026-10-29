@@ -1,0 +1,34 @@
+Choose a mode: text or chars [text]: text
+Document title: My Notes
+Mode: text — structured text: headings, paragraphs, links and images
+Type "help" to see the commands.
+> add container heading
+Heading title: Shopping
+Added heading #1 to /
+> cd Shopping
+/Shopping
+> add leaf paragraph
+Paragraph text: Milk, bread and cheese.
+Added paragraph #2 to /Shopping
+> up
+/
+> add leaf link
+Link label: Recipes
+Link address: https://example.com/recipes
+Added link #3 to /
+> print --whole
+# My Notes
+
+## Shopping
+
+Milk, bread and cheese.
+
+[Recipes](https://example.com/recipes)
+> print --whole --toc
+My Notes
+  Shopping
+> save notes
+Saved as "notes".
+> export notes.md --whole
+Written to D:\Codes\OOP\Practice 5\ClassSystems\scenarios\output\notes.md
+> exit

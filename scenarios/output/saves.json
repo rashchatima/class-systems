@@ -1,0 +1,110 @@
+{
+  "LastModified": "2026-10-29T11:50:25.5309144+01:00",
+  "Saves": {
+    "text": [
+      {
+        "$type": "text",
+        "TextRoot": {
+          "Kind": "document",
+          "Text": "My Notes",
+          "Children": [
+            {
+              "Kind": "heading",
+              "Text": "Shopping",
+              "Children": [
+                {
+                  "Kind": "paragraph",
+                  "Text": "Do not forget apples."
+                }
+              ]
+            },
+            {
+              "Kind": "link",
+              "Text": "Recipes",
+              "Target": "https://example.com/recipes"
+            }
+          ]
+        },
+        "SaveName": "notes",
+        "LastModified": "2026-10-29T11:50:24.827+01:00"
+      }
+    ],
+    "chars": [
+      {
+        "$type": "chars",
+        "Characters": [
+          {
+            "Id": 1,
+            "Name": "Bjorn",
+            "Class": "Warrior",
+            "MaxHealth": 120,
+            "Armor": 8,
+            "AttackPower": 16,
+            "HealPower": 5,
+            "Health": 104,
+            "IsDefending": true
+          },
+          {
+            "Id": 2,
+            "Name": "Elara",
+            "Class": "Mage",
+            "MaxHealth": 70,
+            "Armor": 2,
+            "AttackPower": 20,
+            "HealPower": 6,
+            "Health": 64,
+            "IsDefending": false
+          }
+        ],
+        "Abilities": [
+          {
+            "Id": 1,
+            "Name": "Life Drain",
+            "Effect": "life-drain"
+          },
+          {
+            "Id": 2,
+            "Name": "Power Strike",
+            "Effect": "power-strike"
+          },
+          {
+            "Id": 3,
+            "Name": "Fireball",
+            "Effect": "fireball"
+          }
+        ],
+        "Items": [
+          {
+            "Id": 1,
+            "Name": "Vampiric Dagger",
+            "HealthBonus": 0,
+            "ArmorBonus": 0,
+            "AttackBonus": 4,
+            "AbilityId": 1
+          }
+        ],
+        "CharacterItems": [
+          {
+            "Id": 1,
+            "CharacterId": 2,
+            "ItemId": 1
+          }
+        ],
+        "CharacterAbilities": [
+          {
+            "Id": 1,
+            "CharacterId": 1,
+            "AbilityId": 2
+          },
+          {
+            "Id": 2,
+            "CharacterId": 2,
+            "AbilityId": 3
+          }
+        ],
+        "SaveName": "battle",
+        "LastModified": "2026-10-29T11:50:25.5309144+01:00"
+      }
+    ]
+  }
+}

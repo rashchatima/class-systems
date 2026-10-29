@@ -1,0 +1,10 @@
+db chars --find pyro
+db weapons --find gravestone
+recruit diluc
+recruit xiangling --name Chef
+arm diluc wolf-s-gravestone
+arm diluc amos-bow
+arm Chef wolf-s-gravestone
+sheet diluc
+status
+exit

@@ -1,0 +1,9 @@
+chars
+load battle
+status
+ls char --id Elara
+ls item
+ls ability
+act ability Bjorn Elara
+saves
+exit

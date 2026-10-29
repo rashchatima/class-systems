@@ -1,0 +1,22 @@
+chars
+create char
+warrior
+Bjorn
+create char
+mage
+Elara
+create ability
+life-drain
+create item
+Vampiric Dagger
+0
+0
+4
+Life Drain
+add item --char_id Elara --id "Vampiric Dagger"
+act attack Bjorn Elara
+act ability Elara Bjorn --id "Life Drain"
+act defend Bjorn
+status
+save battle
+exit

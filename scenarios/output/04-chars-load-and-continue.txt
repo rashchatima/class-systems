@@ -1,0 +1,27 @@
+Choose a mode: text or chars [text]: chars
+Mode: chars — game: characters, items and abilities
+Type "help" to see the commands.
+> load battle
+Loaded "battle" from 2026-10-29 11:50.
+> status
+
+  Bjorn: 104/120 HP, 8 armor, 16 attack
+  Elara: 64/70 HP, 2 armor, 24 attack
+
+> ls char --id Elara
+#1 Elara (Mage)
+  health: 64/70, armor: 2, attack: 24, heal power: 6
+  alive: yes, defending: no
+  equipment: #1 Vampiric Dagger
+  abilities: #1 Fireball, #2 Life Drain
+> ls item
+  #1 Vampiric Dagger — equipped by: Elara
+> ls ability
+  #2 Life Drain — can be used by: Elara
+  #3 Power Strike — can be used by: Bjorn
+  #1 Fireball — can be used by: Elara
+> act ability Bjorn Elara
+Bjorn smashes Elara with Power Strike for 30 damage.
+> saves
+  2026-10-29 11:50  battle
+> exit

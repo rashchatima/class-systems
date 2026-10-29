@@ -1,0 +1,8 @@
+Report
+template list
+template add chapter
+copy "New chapter"
+ls
+print --whole --format text
+print --whole --format html
+exit

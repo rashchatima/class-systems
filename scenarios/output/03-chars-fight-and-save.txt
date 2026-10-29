@@ -1,0 +1,37 @@
+Choose a mode: text or chars [text]: chars
+Mode: chars — game: characters, items and abilities
+Type "help" to see the commands.
+> create char
+Class (warrior/mage/priest): warrior
+Name: Bjorn
+Created character #1 Bjorn: 120/120 HP, 8 armor, 16 attack
+> create char
+Class (warrior/mage/priest): mage
+Name: Elara
+Created character #2 Elara: 70/70 HP, 2 armor, 20 attack
+> create ability
+Ability (power-strike/fireball/holy-light/life-drain): life-drain
+Created ability #1 Life Drain
+> create item
+Item name: Vampiric Dagger
+Health bonus [0]: 0
+Armor bonus [0]: 0
+Attack bonus [0]: 4
+Granted ability id/name (empty for none): Life Drain
+Created item #1 Vampiric Dagger (+0 HP, +0 armor, +4 attack, grants #1 Life Drain)
+> add item --char_id Elara --id "Vampiric Dagger"
+Elara equips Vampiric Dagger.
+> act attack Bjorn Elara
+Bjorn attacks Elara for 14 damage.
+> act ability Elara Bjorn --id "Life Drain"
+Elara uses Life Drain on Bjorn for 16 damage and restores 8 health.
+> act defend Bjorn
+Bjorn takes a defensive stance.
+> status
+
+  Bjorn: 104/120 HP, 8 armor, 16 attack
+  Elara: 64/70 HP, 2 armor, 24 attack
+
+> save battle
+Saved as "battle".
+> exit

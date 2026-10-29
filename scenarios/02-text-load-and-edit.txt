@@ -1,0 +1,14 @@
+text
+Scratch
+load notes
+print --whole --id
+cd Shopping
+add leaf paragraph
+Do not forget apples.
+rm #3
+y
+print
+save notes
+saves
+load missing
+exit

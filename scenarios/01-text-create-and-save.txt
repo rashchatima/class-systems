@@ -1,0 +1,16 @@
+text
+My Notes
+add container heading
+Shopping
+cd Shopping
+add leaf paragraph
+Milk, bread and cheese.
+up
+add leaf link
+Recipes
+https://example.com/recipes
+print --whole
+print --whole --toc
+save notes
+export notes.md --whole
+exit
